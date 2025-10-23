@@ -54,7 +54,7 @@ php artisan key:generate
 ### 5️⃣ Jalankan Migrasi Database
 php artisan migrate --seed
 
-###6️⃣ Jalankan Server
+### 6️⃣ Jalankan Server
 php artisan serve
 Buka di browser:
-👉 http://127.0.0.1:8000
+http://127.0.0.1:8000
