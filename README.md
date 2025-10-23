@@ -32,20 +32,20 @@ Website ini juga dilengkapi sistem autentikasi manual seperti **login, registras
 ## ⚙️ Cara Menjalankan Project
 
 ### 1️⃣ Clone Repository
-git clone https://github.com/MunimSudrajat/website-cafe-sederhana.git
+git clone https://github.com/MunimSudrajat/website-cafe-sederhana.git<br>
 cd website-cafe-sederhana
 
 ### 2️⃣ Install Dependencies
-composer install
-npm install
+composer install<br>
+npm install<br>
 npm run dev
 
 ### 3️⃣ Buat File .env
-Salin dari contoh:
-cp .env.example .env
-Lalu sesuaikan konfigurasi database kamu:
-DB_DATABASE=nama_database
-DB_USERNAME=root
+Salin dari contoh: <br>
+cp .env.example .env <br>
+Lalu sesuaikan konfigurasi database kamu: <br>
+DB_DATABASE=nama_database<br>
+DB_USERNAME=root<br>
 DB_PASSWORD=
 
 ### 4️⃣ Generate Key Aplikasi
@@ -56,5 +56,5 @@ php artisan migrate --seed
 
 ### 6️⃣ Jalankan Server
 php artisan serve
-Buka di browser:
+Buka di browser: <br>
 http://127.0.0.1:8000
