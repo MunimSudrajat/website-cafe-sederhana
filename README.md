@@ -1,31 +1,26 @@
-# ☕ Website Café Sederhana
+<img width="1350" height="530" alt="image" src="https://github.com/user-attachments/assets/eac37592-db76-411e-a90e-93611fa6dc0c" /># ☕ Website Café Sederhana
 
-Website Café Sederhana adalah proyek berbasis **Laravel** yang dibuat untuk menampilkan contoh website café modern dengan desain **responsif menggunakan Tailwind CSS**.  
-Website ini juga dilengkapi sistem autentikasi seperti **login, registrasi, dan reset password** menggunakan **Laravel Auth** yang diperkuat dengan **Laravel Spatie** untuk pengelolaan role dan permission pengguna.
+Website Café Sederhana adalah proyek berbasis **Laravel** yang dibuat untuk menampilkan contoh website cafe dengan desain **responsif menggunakan Tailwind CSS**.  
+Website ini juga dilengkapi sistem autentikasi manual seperti **login, registrasi, dan reset password** sederhana menggunakan  **Laravel Auth**.
 
-![Tampilan Website Café](preview.png)
+<img width="1351" height="604" alt="Screenshot 2025-10-23 213156" src="https://github.com/user-attachments/assets/d1bb9922-f198-41f3-b31f-550ae9511efe" />
+
 ---
 
 ## ✨ Fitur Utama
 - 🔐 **Autentikasi Pengguna**
   - Login & Registrasi pengguna
   - Reset Password sederhana
-  - Role & Permission Management (menggunakan Laravel Spatie)
 - 🏠 **Halaman Utama Café**
   - Desain modern & responsif dengan Tailwind CSS
   - Navigasi sederhana dan mudah digunakan
-- 👤 **Dashboard Pengguna**
-  - Akses fitur sesuai role (Admin / User)
-  - Manajemen data sederhana
-- ⚙️ **Manajemen Data**
-  - CRUD dasar (opsional jika kamu menambah menu, kategori, dsb.)
 
 ---
 
 ## 🧰 Teknologi yang Digunakan
 | Teknologi | Deskripsi |
 |------------|------------|
-| **Laravel 10** | Framework utama untuk backend dan routing |
+| **Laravel 12** | Framework utama untuk backend dan routing |
 | **Tailwind CSS** | Framework CSS untuk desain yang cepat dan responsif |
 | **Laravel Spatie** | Paket untuk manajemen role dan permission |
 | **MySQL** | Basis data untuk menyimpan data pengguna dan konten |
@@ -37,6 +32,29 @@ Website ini juga dilengkapi sistem autentikasi seperti **login, registrasi, dan 
 ## ⚙️ Cara Menjalankan Project
 
 ### 1️⃣ Clone Repository
-```bash
 git clone https://github.com/MunimSudrajat/website-cafe-sederhana.git
 cd website-cafe-sederhana
+
+### 2️⃣ Install Dependencies
+composer install
+npm install
+npm run dev
+
+### 3️⃣ Buat File .env
+Salin dari contoh:
+cp .env.example .env
+Lalu sesuaikan konfigurasi database kamu:
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+
+### 4️⃣ Generate Key Aplikasi
+php artisan key:generate
+
+### 5️⃣ Jalankan Migrasi Database
+php artisan migrate --seed
+
+###6️⃣ Jalankan Server
+php artisan serve
+Buka di browser:
+👉 http://127.0.0.1:8000
