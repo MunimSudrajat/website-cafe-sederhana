@@ -1,3 +1,5 @@
+# KafeKita - Website Coffee
+---
 Website Café Sederhana adalah proyek berbasis **Laravel** yang dibuat untuk menampilkan contoh website cafe dengan desain **responsif menggunakan Tailwind CSS**.  
 Website ini juga dilengkapi sistem autentikasi manual seperti **login, registrasi, dan reset password** sederhana menggunakan  **Laravel Auth**.
 
