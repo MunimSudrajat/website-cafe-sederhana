@@ -3,6 +3,7 @@
 Website Café Sederhana adalah proyek berbasis **Laravel** yang dibuat untuk menampilkan contoh website café modern dengan desain **responsif menggunakan Tailwind CSS**.  
 Website ini juga dilengkapi sistem autentikasi seperti **login, registrasi, dan reset password** menggunakan **Laravel Auth** yang diperkuat dengan **Laravel Spatie** untuk pengelolaan role dan permission pengguna.
 
+![Tampilan Website Café](preview.png)
 ---
 
 ## ✨ Fitur Utama
