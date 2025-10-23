@@ -1,8 +1,7 @@
-<img width="1350" height="530" alt="image" src="https://github.com/user-attachments/assets/eac37592-db76-411e-a90e-93611fa6dc0c" />
-
 Website Café Sederhana adalah proyek berbasis **Laravel** yang dibuat untuk menampilkan contoh website cafe dengan desain **responsif menggunakan Tailwind CSS**.  
 Website ini juga dilengkapi sistem autentikasi manual seperti **login, registrasi, dan reset password** sederhana menggunakan  **Laravel Auth**.
 
+<img width="1351" height="604" alt="Screenshot 2025-10-23 213156" src="https://github.com/user-attachments/assets/30c46fdf-0ee9-443e-9ee6-0088ff478da2" />
 
 ---
 
