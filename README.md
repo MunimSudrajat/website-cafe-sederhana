@@ -3,10 +3,6 @@ Website KafeKita adalah website sederhana dengan proyek berbasis Laravel yang di
 Website ini juga dilengkapi sistem autentikasi manual seperti login, registrasi, dan reset password sederhana menggunakan Laravel Auth.
 
 <img width="1351" height="604" alt="Screenshot 2025-10-23 213156" src="https://github.com/user-attachments/assets/30c46fdf-0ee9-443e-9ee6-0088ff478da2" />
-<img width="1366" height="605" alt="image" src="https://github.com/user-attachments/assets/b6937635-8780-4cac-84f1-ed90b052dc7d" />
-<img width="1366" height="529" alt="image" src="https://github.com/user-attachments/assets/3a22df2f-3fb2-4730-b92f-40d3ef410d6c" />
-<img width="1366" height="531" alt="image" src="https://github.com/user-attachments/assets/d1e75c10-9fd8-4fb2-a4c2-7faaf5c6b17c" />
-<img width="1366" height="600" alt="image" src="https://github.com/user-attachments/assets/2aed06e6-3062-4e67-a1a2-9378e524ece1" />
 
 
 
